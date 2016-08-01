@@ -28,7 +28,8 @@ import android.view.ViewGroup.LayoutParams;
  * @author Bear
  */
 public class SlideSwitch extends View {
-    public static final String TAG = "SlideSwitch";
+    //public static final String TAG = "SlideSwitch";
+    public final static String TAG = SlideSwitch.class.getSimpleName();
     public static final int SWITCH_OFF = 0;//关闭状态
     public static final int SWITCH_ON = 1;//打开状态
     public static final int SWITCH_SCROLING = 2;//滚动状态
@@ -205,7 +206,8 @@ public class SlideSwitch extends View {
         } else //SWITCH_SCROLING
         {
             mSwitchStatus = mDstX > 35 ? SWITCH_ON : SWITCH_OFF;
-            drawBitmap(canvas, new Rect(0, 0, mDstX, mBmpHeight), new Rect(0, 0, (int) mDstX, mBmpHeight), mSwitch_on);
+            drawBitmap(canvas, new Rect(0, 0, mDstX, mBmpHeight),
+                    new Rect(0, 0, (int) mDstX, mBmpHeight), mSwitch_on);
             mPaint.setColor(Color.WHITE);
             canvas.drawText(mOnText, 50, 72, mPaint);
 

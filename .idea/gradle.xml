@@ -16,6 +16,8 @@
             <option value="$PROJECT_DIR$/PropertyAnimation" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/custombutton" />
+            <option value="$PROJECT_DIR$/login" />
+            <option value="$PROJECT_DIR$/voicemodel" />
           </set>
         </option>
         <option name="myModules">
@@ -28,6 +30,8 @@
             <option value="$PROJECT_DIR$/PropertyAnimation" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/custombutton" />
+            <option value="$PROJECT_DIR$/login" />
+            <option value="$PROJECT_DIR$/voicemodel" />
           </set>
         </option>
       </GradleProjectSettings>
