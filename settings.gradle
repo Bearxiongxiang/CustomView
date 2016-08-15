@@ -1,1 +1,1 @@
-include ':app', ':01优酷菜单', ':PropertyAnimation', ':02广告条效果-viewpager', ':03下拉框', ':04自定义开关', ':custombutton', ':login', ':voicemodel'
+include ':app', ':01优酷菜单', ':PropertyAnimation', ':02广告条效果-viewpager', ':03下拉框', ':04自定义开关', ':custombutton', ':login', ':voicemodel', ':okhttpmanager'

@@ -136,7 +136,7 @@ public class MyToggleButton extends View implements View.OnClickListener {
                 //6.数据还原
                 startX = event.getX();
 
-                if(Math.abs(endX - lastX) > 5){
+                if (Math.abs(endX - lastX) > 5) {
                     //滑动
                     isEnableClick = false;
                 }

@@ -17,6 +17,7 @@
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/custombutton" />
             <option value="$PROJECT_DIR$/login" />
+            <option value="$PROJECT_DIR$/okhttpmanager" />
             <option value="$PROJECT_DIR$/voicemodel" />
           </set>
         </option>
@@ -31,6 +32,7 @@
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/custombutton" />
             <option value="$PROJECT_DIR$/login" />
+            <option value="$PROJECT_DIR$/okhttpmanager" />
             <option value="$PROJECT_DIR$/voicemodel" />
           </set>
         </option>
